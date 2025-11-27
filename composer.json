@@ -1,0 +1,25 @@
+{
+    "name": "kucil/array-utils",
+    "description": "Kumpulan fungsi level utilitas tipe data array.",
+    "type": "library",
+    "time": "2026-01-07",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "menyongmenying",
+            "email": "menyongmenying.main@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Kucil\\": "./src/"
+        }
+    },
+    "require": {
+        "kucil/string-utils": "0.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "12.0.0"
+    }
+}
